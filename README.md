@@ -4,7 +4,7 @@
 
 - Nama: **AHMAD DANI**
 - NIM: **F1D02410140**
-- Mata kuliah: Kecerdasan Buatan (MKL1303131), Teknik Informatika UNRAM
+- Mata kuliah: Kecerdasan Buatan, Teknik Informatika UNRAM
 
 ## 2. Topik dan cara menjalankan
 
