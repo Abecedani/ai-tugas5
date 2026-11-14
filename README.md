@@ -31,7 +31,7 @@ ai-tugas5/
 | File | Isi |
 |---|---|
 | `kb_kip.json` | basis pengetahuan: sumber, pertanyaan, aturan IF-THEN, kasus uji |
-| `kip_fc.py` | mesin forward chaining (ditulis sendiri) dan antarmuka tanya-jawab |
+| `kip_fc.py` | mesin forward chaining dan interface tanya-jawab |
 | `sumber/` | salinan dokumen sumber yang dipakai |
 | `screenshot/` | tangkapan layar tiga kasus uji |
 
