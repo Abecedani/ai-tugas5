@@ -1,0 +1,34 @@
+{
+  "judul": "Kelayakan calon penerima KIP Kuliah 2026",
+  "batas": "Aturan berasal dari Pedoman Pendaftaran KIP Kuliah 2026 versi 1.1 (PPAPT Kemdiktisaintek) dan dilengkapi panduan Universitas Dinamika. Hanya mencakup syarat umum dan syarat ekonomi pendaftar baru. Hasilnya saran awal: penetapan penerima dilakukan PPAPT atas usulan perguruan tinggi setelah verifikasi, dan prioritas 3 bergantung ketersediaan kuota.",
+  "sumber": {
+    "S1": "Pedoman Pendaftaran Program KIP Kuliah 2026 (versi 1.1), Pusat Pembiayaan dan Asesmen Pendidikan Tinggi, Kemdiktisaintek, https://kip-kuliah.kemdiktisaintek.go.id/panduan, diakses 14 Nov 2026",
+    "S2": "Panduan Pendaftaran KIP Kuliah 2026, Universitas Dinamika, https://www.dinamika.ac.id/wp-content/uploads/2026/06/PANDUAN-PENDAFTARAN-KIP-KULIAH-2026.pdf, diakses 14 Nov 2026"
+  },
+  "pertanyaan": {
+    "lulus tahun berjalan atau maks 2 tahun lalu": "Apakah lulus SMA/SMK/sederajat pada tahun berjalan atau maksimal 2 tahun sebelumnya?",
+    "lulus seleksi masuk PT": "Apakah sudah lulus seleksi penerimaan mahasiswa baru di PTN/PTS?",
+    "prodi terakreditasi BAN-PT": "Apakah program studi tujuan terakreditasi resmi dan tercatat di BAN-PT?",
+    "pemegang KIP": "Apakah pemegang/pemilik Kartu Indonesia Pintar (KIP) Pendidikan Menengah?",
+    "terdata DTSEN maks desil 4": "Apakah terdata di DTSEN maksimum pada desil 4?",
+    "lulus SNBP atau SNBT": "Apakah lulus lewat jalur SNBP atau SNBT?",
+    "lulus seleksi mandiri": "Apakah lulus lewat seleksi mandiri PTN/PTS?",
+    "pendapatan ortu di bawah UMP": "Apakah pendapatan kotor gabungan orang tua/wali per bulan di bawah UMP provinsi domisili asal?",
+    "punya SKTM": "Apakah punya SKTM (dilegalisasi pemerintah, min. desa/kelurahan) beserta bukti dukung (mis. rekening listrik, foto rumah)?"
+  },
+  "aturan": [
+    {"id": "R1", "jika": ["lulus tahun berjalan atau maks 2 tahun lalu", "lulus seleksi masuk PT", "prodi terakreditasi BAN-PT"], "mode": "dan", "maka": "syarat umum terpenuhi", "sumber": "S1 hal. 9; S2 A.1-A.2"},
+    {"id": "R2", "jika": ["pemegang KIP", "terdata DTSEN maks desil 4", "lulus SNBP atau SNBT"], "mode": "dan", "maka": "ekonomi prioritas 1", "sumber": "S1 hal. 10"},
+    {"id": "R3", "jika": ["pemegang KIP", "terdata DTSEN maks desil 4", "lulus seleksi mandiri"], "mode": "dan", "maka": "ekonomi prioritas 2", "sumber": "S1 hal. 10"},
+    {"id": "R4", "jika": ["pendapatan ortu di bawah UMP", "punya SKTM"], "mode": "dan", "maka": "ekonomi prioritas 3", "sumber": "S1 hal. 12; S2 A.5"},
+    {"id": "R5", "jika": ["ekonomi prioritas 1", "ekonomi prioritas 2", "ekonomi prioritas 3"], "mode": "atau", "maka": "syarat ekonomi terpenuhi", "sumber": "S1 hal. 10-12"},
+    {"id": "R6", "jika": ["syarat umum terpenuhi", "syarat ekonomi terpenuhi"], "mode": "dan", "maka": "layak diusulkan sebagai calon penerima", "sumber": "S1 hal. 9, 17"}
+  ],
+  "kesimpulan_akhir": "layak diusulkan sebagai calon penerima",
+  "kasus_uji": [
+    {"nama": "Prioritas 1: KIP, desil 4, lulus SNBP", "ya": ["lulus tahun berjalan atau maks 2 tahun lalu", "lulus seleksi masuk PT", "prodi terakreditasi BAN-PT", "pemegang KIP", "terdata DTSEN maks desil 4", "lulus SNBP atau SNBT"]},
+    {"nama": "Prioritas 3: tanpa KIP, pendapatan di bawah UMP + SKTM, lulus mandiri", "ya": ["lulus tahun berjalan atau maks 2 tahun lalu", "lulus seleksi masuk PT", "prodi terakreditasi BAN-PT", "lulus seleksi mandiri", "pendapatan ortu di bawah UMP", "punya SKTM"]},
+    {"nama": "Negatif: KIP dan desil 4 tetapi belum lulus seleksi masuk", "ya": ["pemegang KIP", "terdata DTSEN maks desil 4"]},
+    {"nama": "Sebagian: syarat umum terpenuhi, syarat ekonomi tidak", "ya": ["lulus tahun berjalan atau maks 2 tahun lalu", "lulus seleksi masuk PT", "prodi terakreditasi BAN-PT"]}
+  ]
+}
