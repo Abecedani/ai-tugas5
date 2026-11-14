@@ -48,8 +48,8 @@ python kip_fc.py --kasus 1    # jalankan kasus uji nomor 1 sampai 4
 
 | Kode | Sumber |
 |---|---|
-| S1 | *Pedoman Pendaftaran Program KIP Kuliah 2026* (versi 1.1), Pusat Pembiayaan dan Asesmen Pendidikan Tinggi (PPAPT), Kemdiktisaintek. Dipublikasikan melalui portal https://kip-kuliah.kemdiktisaintek.go.id/ (tidak ada tautan unduh langsung). Salinan: [sumber/S1-pedoman-kip-kuliah-2026.pdf](sumber/S1-pedoman-kip-kuliah-2026.pdf). Diakses **[ISI TANGGAL]**. |
-| S2 | *Panduan Pendaftaran KIP Kuliah 2026*, Universitas Dinamika. https://www.dinamika.ac.id/wp-content/uploads/2026/06/PANDUAN-PENDAFTARAN-KIP-KULIAH-2026.pdf . Salinan: [sumber/S2-panduan-dinamika-2026.pdf](sumber/S2-panduan-dinamika-2026.pdf). Diakses **[ISI TANGGAL]**. |
+| S1 | *Pedoman Pendaftaran Program KIP Kuliah 2026* (versi 1.1), Pusat Pembiayaan dan Asesmen Pendidikan Tinggi (PPAPT), Kemdiktisaintek. Dipublikasikan melalui portal https://kip-kuliah.kemdiktisaintek.go.id/ (tidak ada tautan unduh langsung). Salinan: [sumber/S1-pedoman-kip-kuliah-2026.pdf](sumber/S1-pedoman-kip-kuliah-2026.pdf). Diakses **14-November-2026**. |
+| S2 | *Panduan Pendaftaran KIP Kuliah 2026*, Universitas Dinamika. https://www.dinamika.ac.id/wp-content/uploads/2026/06/PANDUAN-PENDAFTARAN-KIP-KULIAH-2026.pdf . Salinan: [sumber/S2-panduan-dinamika-2026.pdf](sumber/S2-panduan-dinamika-2026.pdf). Diakses **14-November-2026**. |
 
 S1 adalah sumber utama (dokumen resmi kementerian). S2 adalah dokumen perguruan tinggi yang memuat syarat umum yang sama.
 
