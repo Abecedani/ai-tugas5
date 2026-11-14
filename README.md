@@ -140,4 +140,4 @@ Pengetahuan dalam program ini berasal dari Pedoman Pendaftaran KIP Kuliah 2026 v
 
 ## 7. Penggunaan alat bantu AI
 
-Saya memakai Claude (Anthropic) untuk membantu mencari dan membandingkan sumber, menyusun draf aturan, dan membuat kerangka kode forward chaining. Sumber dan isi pedoman saya unduh dan baca sendiri, dan saya memeriksa aturan, kode, serta kasus uji sebelum dikumpulkan. 
+Saya memakai Claude (Anthropic) untuk membantu mencari dan membandingkan sumber, menyusun draf aturan, dan membuat kerangka kode forward chaining. 
