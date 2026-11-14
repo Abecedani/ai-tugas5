@@ -35,7 +35,7 @@ ai-tugas5/
 | `sumber/` | salinan dokumen sumber yang dipakai |
 | `screenshot/` | tangkapan layar tiga kasus uji |
 
-**Menjalankan** (dari folder utama repository):
+**Cara running program**:
 
 ```
 python kip_fc.py              # interaktif, jawab y/t
